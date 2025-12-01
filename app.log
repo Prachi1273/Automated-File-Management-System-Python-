@@ -1,0 +1,127 @@
+2025-07-06 17:44:44,879 [INFO] - --- Starting task: organize_files_by_type ---
+2025-07-06 17:44:44,879 [INFO] - Starting file organization in '/home/prachi/Desktop/AMBK'...
+2025-07-06 17:44:44,880 [INFO] - Created directory: /home/prachi/Desktop/AMBK/Organized
+2025-07-06 17:44:44,880 [INFO] - Created subdirectory: /home/prachi/Desktop/AMBK/Organized/Images
+2025-07-06 17:44:44,880 [INFO] - Moved 'Screenshot from 2025-02-24 09-22-21.png' to '/home/prachi/Desktop/AMBK/Organized/Images'
+2025-07-06 17:44:44,880 [INFO] - Created subdirectory: /home/prachi/Desktop/AMBK/Organized/Documents
+2025-07-06 17:44:44,880 [INFO] - Moved 'llproject.c.pdf' to '/home/prachi/Desktop/AMBK/Organized/Documents'
+2025-07-06 17:44:44,881 [INFO] - Moved 'Screenshot from 2024-12-23 21-05-21.png' to '/home/prachi/Desktop/AMBK/Organized/Images'
+2025-07-06 17:44:44,881 [INFO] - File organization complete. Moved 3 files.
+2025-07-06 17:44:44,881 [INFO] - --- Successfully completed task: organize_files_by_type ---
+2025-07-06 17:46:06,964 [INFO] - --- Starting task: organize_screenshots ---
+2025-07-06 17:46:06,964 [INFO] - Starting screenshot organization in '/home/prachi/Desktop/AMBK'...
+2025-07-06 17:46:06,965 [INFO] - Created directory: /home/prachi/Desktop/AMBK/Organized/Screenshots
+2025-07-06 17:46:06,965 [INFO] - Screenshot organization complete. Moved 0 files.
+2025-07-06 17:46:06,965 [INFO] - --- Successfully completed task: organize_screenshots ---
+2025-07-06 17:46:42,429 [INFO] - --- Starting task: archive_old_files ---
+2025-07-06 17:46:42,429 [INFO] - Starting to archive old files from '/home/prachi/Desktop/AMBK'...
+2025-07-06 17:46:42,430 [INFO] - Created archive directory: /home/prachi/Desktop/AMBK/Archive_Old_Files
+2025-07-06 17:46:42,430 [INFO] - Archived old file: '3.c'
+2025-07-06 17:46:42,430 [INFO] - Archived old file: '4.c'
+2025-07-06 17:46:42,430 [INFO] - Archived old file: '3'
+2025-07-06 17:46:42,431 [INFO] - Archived old file: '1.c'
+2025-07-06 17:46:42,431 [INFO] - Archived old file: '2.c'
+2025-07-06 17:46:42,431 [INFO] - Archived old file: '2'
+2025-07-06 17:46:42,431 [INFO] - Archived old file: '1'
+2025-07-06 17:46:42,431 [INFO] - Archiving complete. Archived 7 files.
+2025-07-06 17:46:42,431 [INFO] - --- Successfully completed task: archive_old_files ---
+2025-07-06 17:47:51,156 [INFO] - --- Starting task: organize_screenshots ---
+2025-07-06 17:47:51,156 [INFO] - Starting screenshot organization in '/home/prachi/Desktop/AMBK'...
+2025-07-06 17:47:51,156 [INFO] - Created directory: /home/prachi/Desktop/AMBK/Organized/Screenshots
+2025-07-06 17:47:51,157 [INFO] - Moved screenshot 'Screenshot from 2024-12-23 07-24-20.png' to '/home/prachi/Desktop/AMBK/Organized/Screenshots'
+2025-07-06 17:47:51,157 [INFO] - Moved screenshot 'Screenshot from 2024-12-23 21-02-21.png' to '/home/prachi/Desktop/AMBK/Organized/Screenshots'
+2025-07-06 17:47:51,157 [INFO] - Moved screenshot 'Screenshot from 2024-12-23 20-40-14.png' to '/home/prachi/Desktop/AMBK/Organized/Screenshots'
+2025-07-06 17:47:51,157 [INFO] - Moved screenshot 'Screenshot from 2024-12-23 21-05-21.png' to '/home/prachi/Desktop/AMBK/Organized/Screenshots'
+2025-07-06 17:47:51,157 [INFO] - Screenshot organization complete. Moved 4 files.
+2025-07-06 17:47:51,157 [INFO] - --- Successfully completed task: organize_screenshots ---
+2025-07-06 17:49:06,872 [INFO] - --- Starting task: find_and_quarantine_duplicates ---
+2025-07-06 17:49:06,873 [INFO] - Starting duplicate file scan in '/home/prachi/Desktop/AMBK'...
+2025-07-06 17:49:06,874 [INFO] - Created duplicate quarantine directory: /home/prachi/Desktop/AMBK/Duplicate_Files
+2025-07-06 17:49:06,875 [WARNING] - Duplicate set found. Original: '/home/prachi/Desktop/AMBK/1 (copy).c'. Duplicates: ['/home/prachi/Desktop/AMBK/1.c']
+2025-07-06 17:49:06,875 [INFO] - Moved duplicate '/home/prachi/Desktop/AMBK/1.c' to quarantine.
+2025-07-06 17:49:06,875 [INFO] - Duplicate scan complete. Quarantined 1 files.
+2025-07-06 17:49:06,875 [INFO] - --- Successfully completed task: find_and_quarantine_duplicates ---
+2025-07-06 17:49:29,822 [INFO] - --- Starting task: generate_project_structure ---
+2025-07-06 17:49:29,822 [INFO] - Generating project structures under '/home/prachi/Desktop/AMBK/Projects'
+2025-07-06 17:49:29,822 [INFO] - Created or verified folder: /home/prachi/Desktop/AMBK/Projects/Project_Alpha/Alice
+2025-07-06 17:49:29,822 [INFO] - Created or verified folder: /home/prachi/Desktop/AMBK/Projects/Project_Alpha/Bob
+2025-07-06 17:49:29,822 [INFO] - Created or verified folder: /home/prachi/Desktop/AMBK/Projects/Project_Beta/Alice
+2025-07-06 17:49:29,822 [INFO] - Created or verified folder: /home/prachi/Desktop/AMBK/Projects/Project_Beta/Bob
+2025-07-06 17:49:29,822 [INFO] - --- Successfully completed task: generate_project_structure ---
+2025-07-06 17:51:12,774 [INFO] - --- Starting task: create_nested_folders ---
+2025-07-06 17:51:12,774 [INFO] - Ensured nested folder structure exists: /home/prachi/Desktop/
+2025-07-06 17:51:12,774 [INFO] - --- Successfully completed task: create_nested_folders ---
+2025-07-06 17:52:55,970 [INFO] - --- Starting task: create_nested_folders ---
+2025-07-06 17:52:55,971 [INFO] - Ensured nested folder structure exists: /home/prachi/Desktop/Desktop/demo/123
+2025-07-06 17:52:55,971 [INFO] - --- Successfully completed task: create_nested_folders ---
+2025-07-06 17:53:38,409 [INFO] - --- Starting task: archive_log_files ---
+2025-07-06 17:53:38,409 [INFO] - Starting log archiving in 'logs'...
+2025-07-06 17:53:38,409 [INFO] - Created log archive directory: /home/prachi/Desktop/Automation/project1/SmartSysMaint/logs/archive
+2025-07-06 17:53:38,410 [INFO] - Log archiving complete. Archived 0 logs.
+2025-07-06 17:53:38,410 [INFO] - --- Successfully completed task: archive_log_files ---
+2025-07-06 17:53:52,838 [INFO] - --- Starting task: audit_folder_health ---
+2025-07-06 17:53:52,839 [INFO] - Starting folder health and permission audit...
+2025-07-06 17:53:52,839 [INFO] - [OK] Path exists: '/home/prachi/Desktop/AMBK'
+2025-07-06 17:53:52,839 [INFO] -   [OK] Read permissions are set for '/home/prachi/Desktop/AMBK'.
+2025-07-06 17:53:52,839 [INFO] -   [OK] Write permissions are set for '/home/prachi/Desktop/AMBK'.
+2025-07-06 17:53:52,839 [ERROR] - [FAIL] Path does not exist: '/path/to/your/backup/drive'
+2025-07-06 17:53:52,839 [INFO] - [OK] Path exists: '/home/prachi/Desktop/AMBK/Projects'
+2025-07-06 17:53:52,839 [INFO] -   [OK] Read permissions are set for '/home/prachi/Desktop/AMBK/Projects'.
+2025-07-06 17:53:52,839 [INFO] -   [OK] Write permissions are set for '/home/prachi/Desktop/AMBK/Projects'.
+2025-07-06 17:53:52,839 [INFO] - Folder health audit complete.
+2025-07-06 17:53:52,839 [INFO] - --- Successfully completed task: audit_folder_health ---
+2025-07-06 17:54:08,164 [INFO] - --- Starting task: visualize_folder_sizes ---
+2025-07-06 17:54:08,165 [INFO] - Visualizing folder sizes for '/home/prachi/Desktop/AMBK'...
+2025-07-06 17:54:08,166 [INFO] - Folder size visualization complete.
+2025-07-06 17:54:08,166 [INFO] - --- Successfully completed task: visualize_folder_sizes ---
+2025-07-06 17:54:20,208 [INFO] - --- Starting task: display_system_info ---
+2025-07-06 17:54:20,208 [INFO] - Collecting system information...
+2025-07-06 17:54:20,211 [INFO] -   System: Linux
+2025-07-06 17:54:20,211 [INFO] -   Node Name: linux
+2025-07-06 17:54:20,211 [INFO] -   Release: 5.15.0-139-generic
+2025-07-06 17:54:20,211 [INFO] -   Version: #149~20.04.1-Ubuntu SMP Wed Apr 16 08:29:56 UTC 2025
+2025-07-06 17:54:20,212 [INFO] -   Machine: x86_64
+2025-07-06 17:54:20,212 [INFO] -   Processor: x86_64
+2025-07-06 17:54:20,212 [INFO] - --- Successfully completed task: display_system_info ---
+2025-07-06 17:54:33,695 [INFO] - --- Starting task: monitor_disk_space ---
+2025-07-06 17:54:33,695 [INFO] - Monitoring disk space for '/'...
+2025-07-06 17:54:33,695 [INFO] -   Total Space: 48.09 GB
+2025-07-06 17:54:33,695 [INFO] -   Used Space:  22.04 GB
+2025-07-06 17:54:33,695 [INFO] -   Free Space:  23.57 GB (49.02%)
+2025-07-06 17:54:33,695 [INFO] -   [OK] Disk space is within acceptable limits.
+2025-07-06 17:54:33,695 [INFO] - --- Successfully completed task: monitor_disk_space ---
+2025-07-06 17:54:45,372 [INFO] - --- Starting task: create_backup ---
+2025-07-06 17:54:45,372 [ERROR] - --- Task failed: create_backup with error: [Errno 13] Permission denied: '/path' ---
+Traceback (most recent call last):
+  File "main.py", line 60, in run_task
+    task_function(*args, **kwargs)
+  File "/home/prachi/Desktop/Automation/project1/SmartSysMaint/backup/versioning.py", line 15, in create_backup
+    os.makedirs(dest_dir)
+  File "/usr/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  [Previous line repeated 1 more time]
+  File "/usr/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/path'
+2025-07-06 17:54:59,400 [INFO] - --- Starting task: auto_rename_files ---
+2025-07-06 17:54:59,400 [INFO] - Starting to rename messy files in '/home/prachi/Desktop/AMBK'...
+2025-07-06 17:54:59,400 [INFO] - Renamed '1 (copy).c' to '1_copy.c'
+2025-07-06 17:54:59,400 [INFO] - Renamed 'llproject.c.pdf' to 'llprojectc.pdf'
+2025-07-06 17:54:59,400 [INFO] - File renaming complete. Renamed 2 files.
+2025-07-06 17:54:59,401 [INFO] - --- Successfully completed task: auto_rename_files ---
+2025-07-06 17:55:10,948 [INFO] - --- Starting task: cleanup_temp_files ---
+2025-07-06 17:55:10,949 [INFO] - Starting temporary file cleanup in '/home/prachi/Desktop/AMBK' (Dry Run: False)...
+2025-07-06 17:55:10,949 [INFO] - Temporary file cleanup complete. Deleted 0 files.
+2025-07-06 17:55:10,949 [INFO] - --- Successfully completed task: cleanup_temp_files ---
+2025-07-06 17:55:24,979 [INFO] - --- Starting task: create_file_inventory ---
+2025-07-06 17:55:24,979 [INFO] - Creating file inventory for '/home/prachi/Desktop/AMBK'...
+2025-07-06 17:55:24,981 [INFO] - Successfully created file inventory report at '/home/prachi/Desktop/AMBK/file_inventory_report.txt'.
+2025-07-06 17:55:24,981 [INFO] - --- Successfully completed task: create_file_inventory ---
+2025-07-06 17:55:35,121 [INFO] - --- Starting task: create_automated_report_folder ---
+2025-07-06 17:55:35,122 [INFO] - Created automated report folder: /home/prachi/Desktop/AMBK/Automated_Reports/Report_2025-07-06
+2025-07-06 17:55:35,122 [INFO] - --- Successfully completed task: create_automated_report_folder ---
+2025-07-06 17:55:42,108 [INFO] - Exiting application.
